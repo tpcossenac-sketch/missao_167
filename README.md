@@ -58,10 +58,6 @@ npm test
 | Nº | Funcionalidade/Função | Arquivo | Objetivo do teste |
 | --- | --- | --- | --- |
 | 1 | `validateLead()` | `src/validation.js` | Verificar se o cadastro completo é validado corretamente. |
-| 2 | Validação de nome | `src/validation.js` | Verificar se o nome possui o tamanho e o tipo adequado. |
-| 3 | Validação de e-mail | `src/validation.js` | Verificar se o e-mail apresenta um formato válido. |
-| 4 | Validação de telefone | `src/validation.js` | Verificar se o telefone é informado como texto. |
-| 5 | Validação de modalidade | `src/validation.js` | Verificar se a modalidade escolhida está entre as opções permitidas. |
 
 ---
 
@@ -441,9 +437,11 @@ Cálculo: (Testes aprovados ÷ Total de testes executados) × 100
 
 ## 8. Problemas identificados e correções realizadas
 
+## 8. Problemas identificados e correções realizadas
+
 | Problema identificado | Causa do problema | Solução implementada | Situação |
 |---|---|---|---|
-| Nenhuma falha identificada na execução final | Não foram encontrados erros nos cenários testados | Não foi necessária nenhuma correção na execução final | Resolvido |
+| Nenhuma falha identificada na execução final | Não foram encontrados erros nos cenários testados | Não foi necessária nenhuma correção | Não se aplica |
 
 Na execução final dos testes, não foram identificadas falhas nos cenários implementados. Todos os 11 testes apresentaram os resultados esperados, demonstrando que a função de validação está funcionando corretamente nos casos avaliados.
 
